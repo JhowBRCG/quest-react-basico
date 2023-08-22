@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 2px double blue;
+  background: red;
+  color: #fff;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: 0px 10px 4px rgba(255, 0, 0, 0.342);
+}
+
+.button:active {
+  transform: translateY(10px);
+  box-shadow: 0px 0px 4px rgba(255, 0, 0, 0.342);
+}
